@@ -20,8 +20,9 @@ y = int(y)
 # Rechne x + y und gebe das Ergebnis in summe
 summe = x + y 
 # Sage dem User "Die Summe ist " summe 
-print("Die Summe ist: ", summe)
-
+#print("Die Summe ist: ", summe)
+summe = str(summe)
+print("Die Summe ist " + summe)
 
 
 # Kommentar
